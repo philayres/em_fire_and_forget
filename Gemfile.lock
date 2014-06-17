@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    connection_pool (2.0.0)
+    cookiejar (0.3.2)
+    diff-lcs (1.2.5)
+    em-http-request (1.1.2)
+      addressable (>= 2.3.4)
+      cookiejar
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.0)
+      eventmachine (>= 1.0.0.beta.4)
+    eventmachine (1.0.3)
+    eventmachine_httpserver (0.2.1)
+    hashie (3.0.0)
+    http_parser.rb (0.6.0)
+    httpclient (2.4.0)
+    logger (1.2.8)
+    mime-types (1.25.1)
+    mysql2 (0.3.16)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.0)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.1)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  connection_pool
+  em-http-request
+  eventmachine
+  eventmachine_httpserver
+  hashie
+  httpclient
+  logger
+  mysql2
+  rest-client
+  rspec
